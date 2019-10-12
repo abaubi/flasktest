@@ -1,0 +1,12 @@
+{% extends 'base/base.html'%}
+
+{% block content %}
+
+    <p> Esto es parte del client</p>
+   
+    {% for item in list%}
+        <p> {{ item }}</p>
+    {% endfor %}
+   
+               
+{% endblock %}

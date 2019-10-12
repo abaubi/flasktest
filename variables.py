@@ -6,7 +6,7 @@ app = Flask(__name__)
 #http://192.168.0.154:8000/user/Agusti
 @app.route('/user/<name>')
 def user(name='Agusti'):
-    age=18
+    age=19
     my_list=[1,2,3,4]
     return render_template('user.html', nombre= name,edad=age,lista=my_list)
 
