@@ -3,8 +3,6 @@ from flask import render_template
 
 app = Flask(__name__)
 
-#http://192.168.0.154:8000/user/Agusti
-
 @app.route('/')
 def index():
     name='Eduardo'
